@@ -1,0 +1,28 @@
+/* Custom Style */
+html{
+    scroll-behavior: smooth !important;
+}
+.bg-teal{
+    background-color: teal;
+}
+.text-teal{
+    color: teal;
+}
+.carousel .carousel-indicators li{
+    width : 30px;
+    height: 3px;
+    cursor: pointer;
+    border-radius: 0%;
+}
+.text-teal{
+    color: teal;
+}
+
+
+@media (max-width : 576px) {
+    .carousel-caption h4{
+        font-size: 30px;
+    }
+    .carousel-caption p{
+        display: none;
+    }
